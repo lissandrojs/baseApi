@@ -1,5 +1,6 @@
 ** app/ -- teremos arquivos especiais relacionados ao aplicativo na rota, etc.
 
+teste
 ** configs/ -- ele conterá arquivos como banco de dados e .env que usamos para configurações.
 
 ** controllers/ -- teremos um controlador que gerencia as solicitações ao nosso aplicativo.
