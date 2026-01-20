@@ -1,22 +1,13 @@
-## Estrutura de Pastas do Projeto
+** app/ -- teremos arquivos especiais relacionados ao aplicativo na rota, etc.
 
-- **app/**  
-  Contém arquivos especiais relacionados ao aplicativo, como rotas, inicializações, middlewares, etc.
+** configs/ -- ele conterá arquivos como banco de dados e .env que usamos para configurações.
 
-- **configs/**  
-  Contém arquivos de configuração, como banco de dados, variáveis de ambiente (`.env`), e outras configurações globais.
+** controllers/ -- teremos um controlador que gerencia as solicitações ao nosso aplicativo.
 
-- **controllers/**  
-  Contém os controladores responsáveis por gerenciar as requisições feitas ao aplicativo.
+** migrations/ -- ele conterá arquivos contendo comandos de criação de tabelas que usaremos em nosso.banco de dados
 
-- **migrations/**  
-  Contém arquivos com comandos de criação e alteração de tabelas que serão usados no banco de dados.
+** models/ -- conterá arquivos pertencentes às nossas estruturas de tabela.
 
-- **models/**  
-  Contém arquivos que representam as estruturas das tabelas do banco de dados (models/entidades).
+** repository/ -- haverá arquivos nos quais executaremos nossas operações de banco de dados.
 
-- **repository/**  
-  Contém arquivos onde são executadas as operações de acesso ao banco de dados (CRUD, queries, etc).
-
-- **services/**  
-  Contém arquivos de serviço que fazem a ligação entre os controllers e os repositories, concentrando as regras de negócio.
+** services/ -- teremos arquivos de serviço que fornecem a conexão entre o controlador e o repositório.
